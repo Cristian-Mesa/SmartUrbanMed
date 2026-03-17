@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Bebas+Neue&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.1/maptiler-sdk.css" rel="stylesheet" />
-    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.1/maptiler-sdk.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 
     <style>
         :root {
@@ -406,6 +406,16 @@
         ::-webkit-scrollbar-thumb { background: rgba(255,255,255,.1); border-radius: 999px; }
         ::-webkit-scrollbar-thumb:hover { background: rgba(0,255,148,.3); }
         ::selection { background: rgba(0,255,148,.2); color: var(--verde); }
+
+        /* Leaflet dark theme */
+        .leaflet-container { background: #0B1220 !important; }
+        .leaflet-tile { filter: none !important; }
+        .leaflet-control-attribution { background: rgba(6,10,16,.85) !important; color: #64748B !important; font-size: .6rem !important; }
+        .leaflet-control-attribution a { color: #3B82F6 !important; }
+        .leaflet-popup-content-wrapper { background: #141B2D !important; border: 1px solid rgba(255,255,255,.1) !important; border-radius: .5rem !important; box-shadow: 0 8px 32px rgba(0,0,0,.5) !important; color: #e2e8f0 !important; }
+        .leaflet-popup-tip { background: #141B2D !important; }
+        .leaflet-bar a { background: #141B2D !important; color: #e2e8f0 !important; border-color: rgba(255,255,255,.1) !important; }
+        .leaflet-bar a:hover { background: #1e2d45 !important; }
     </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
@@ -444,47 +454,8 @@
         </footer>
 
         <script>
-            var MAPTILER_KEY = 'ZbBJ9WDp7YPDmMKxooBj';
-            if (typeof maptilersdk !== 'undefined') maptilersdk.config.apiKey = MAPTILER_KEY;
-
-            function crearMapa(id, lat, lng, zoom) {
-                if (typeof maptilersdk === 'undefined') return null;
-                return new maptilersdk.Map({
-                    container: id,
-                    style: maptilersdk.MapStyle.DATAVIZ_DARK,
-                    center: [lng || -75.5812, lat || 6.2442],
-                    zoom: zoom || 12
-                });
-            }
-
-            function agregarPin(mapa, lng, lat, titulo, color) {
-                color = color || '#00FF94';
-                var el = document.createElement('div');
-                el.style.cssText = 'width:12px;height:12px;border-radius:50%;background:' + color +
-                    ';border:2px solid rgba(255,255,255,.8);box-shadow:0 0 12px ' + color + ',0 0 24px ' + color + '40;cursor:pointer;transition:transform .2s;';
-                el.onmouseenter = function () { el.style.transform = 'scale(1.8)'; };
-                el.onmouseleave = function () { el.style.transform = 'scale(1)'; };
-                new maptilersdk.Marker({ element: el })
-                    .setLngLat([lng, lat])
-                    .setPopup(new maptilersdk.Popup({ offset: 18 })
-                        .setHTML('<div style="font-family:Space Grotesk,sans-serif;font-weight:600;font-size:12px;color:#e2e8f0;">' + titulo + '</div>'))
-                    .addTo(mapa);
-            }
-
-            function activarSeleccion(mapa, idLat, idLng, idDisplay) {
-                var marker = null;
-                mapa.on('click', function (e) {
-                    var lat = e.lngLat.lat.toFixed(6);
-                    var lng = e.lngLat.lng.toFixed(6);
-                    if (idLat) document.getElementById(idLat).value = lat;
-                    if (idLng) document.getElementById(idLng).value = lng;
-                    if (idDisplay) document.getElementById(idDisplay).innerHTML = 'LAT ' + lat + '  &middot;  LNG ' + lng;
-                    if (marker) marker.remove();
-                    var el = document.createElement('div');
-                    el.style.cssText = 'width:12px;height:12px;border-radius:50%;background:#00FF94;border:2px solid #fff;box-shadow:0 0 16px #00FF94;';
-                    marker = new maptilersdk.Marker({ element: el }).setLngLat([parseFloat(lng), parseFloat(lat)]).addTo(mapa);
-                });
-            }
+            /* Leaflet helpers — usados por páginas con mapa */
+            /* Los mapas se inicializan en cada página individualmente */
 
             (function () {
                 var links = document.querySelectorAll('.nav-link');
