@@ -726,6 +726,35 @@
           activos</span>
       </div>
       <div id="mapa-proveedores" style="width:100%;height:440px;display:block;"></div>
+      <script>
+          (function () {
+              function tryInit() {
+                  if (typeof L === 'undefined') { setTimeout(tryInit, 100); return; }
+                  var el = document.getElementById('mapa-proveedores');
+                  if (!el || window._mapaProveedores) return;
+                  var m = L.map('mapa-proveedores', { center: [6.2442, -75.5812], zoom: 12 });
+                  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                      attribution: '&copy; OSM &copy; CARTO', maxZoom: 19, subdomains: 'abcd'
+                  }).addTo(m);
+                  window._mapaProveedores = m;
+                  var provs = [
+                      { lat: 6.2088, lng: -75.5680, nombre: 'Fix Home', color: '#00FF94' },
+                      { lat: 6.2518, lng: -75.5736, nombre: 'Electro MED', color: '#3B82F6' },
+                      { lat: 6.1693, lng: -75.5866, nombre: 'Carpintería Ríos', color: '#FBBF24' },
+                      { lat: 6.2317, lng: -75.6040, nombre: 'PintaMed', color: '#a78bfa' },
+                      { lat: 6.1457, lng: -75.6143, nombre: 'Verde Urbano', color: '#4ade80' },
+                      { lat: 6.1847, lng: -75.5997, nombre: 'TechFix', color: '#F87171' }
+                  ];
+                  provs.forEach(function (p) {
+                      var ico = L.divIcon({ className: '', html: '<div style="width:12px;height:12px;border-radius:50%;background:' + p.color + ';border:2px solid #fff;box-shadow:0 0 10px ' + p.color + ';"></div>', iconSize: [12, 12], iconAnchor: [6, 6], popupAnchor: [0, -8] });
+                      L.marker([p.lat, p.lng], { icon: ico }).addTo(m).bindPopup('<div style="font-family:Space Grotesk,sans-serif;font-size:12px;color:#e2e8f0">' + p.nombre + '</div>');
+                  });
+                  setTimeout(function () { m.invalidateSize(); }, 300);
+              }
+              // Wait for the div to be visible (user clicks Mapa tab)
+              window._initMapaProveedores = tryInit;
+          })();
+      </script>
     </div>
 
   </asp:Content>
@@ -740,7 +769,7 @@
             document.getElementById('view-' + v).classList.remove('hidden');
             ['grid', 'table', 'mapa'].forEach(function (x) { document.getElementById('btn-' + x).classList.remove('active'); });
             document.getElementById('btn-' + v).classList.add('active');
-            if (v === 'mapa' && !mapaIniciado) { mapaIniciado = true; initMapa(); }
+            if (v === 'mapa' && !mapaIniciado) { mapaIniciado = true; if (window._initMapaProveedores) window._initMapaProveedores(); }
         }
         function filtrar() {
             var q = document.getElementById('search-input').value.toLowerCase();

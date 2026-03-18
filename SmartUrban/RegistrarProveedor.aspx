@@ -645,11 +645,11 @@
         function initRegistroMap() {
             var el = document.getElementById('mapa-registro');
             if (!el || mapaReg) return;
-            mapaReg = L.map('mapa-registro', { center: [6.2442, -75.5812], zoom: 12 });
+            mapaReg = L.map('mapa-registro', { center: [6.2442, -75.5812], zoom: 13 });
             L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
                 attribution: '&copy; OSM &copy; CARTO', maxZoom: 19, subdomains: 'abcd'
             }).addTo(mapaReg);
-            mapaReg.invalidateSize();
+            setTimeout(function () { if (mapaReg) mapaReg.invalidateSize(); }, 400);
             /* Clic manual para ajustar pin */
             mapaReg.on('click', function (e) {
                 colocarPin(e.latlng.lat, e.latlng.lng, 'Ubicación seleccionada');
@@ -683,8 +683,7 @@
             box.innerHTML = items.map(function (item) {
                 var parts = item.display_name.split(',');
                 var main = parts[0].trim(), sub = parts.slice(1, 3).join(',').trim();
-                return '<div class="suggestion-item" onclick="seleccionarReg(''+escStr(item.display_name)+'','
-                    + parseFloat(item.lat) + ',' + parseFloat(item.lon) + ')">'
+                return '<div class="suggestion-item" onclick="seleccionarReg(' + "'" + encodeURIComponent(item.display_name) + "'" + ',' + lat + ',' + lng + ')">'
                     + '<span style="color:var(--verde);flex-shrink:0">📍</span>'
                     + '<div><div class="suggestion-main">' + esc(main) + '</div>'
                     + (sub ? '<div class="suggestion-sub">' + esc(sub) + '</div>' : '')
@@ -693,6 +692,7 @@
             box.classList.add('show');
         }
         function seleccionarReg(nombre, lat, lng) {
+            try { nombre = decodeURIComponent(nombre); } catch (e) { }
             document.getElementById('addr-reg').value = nombre.split(',').slice(0, 2).join(',').trim();
             hideSuggestionsReg();
             colocarPin(lat, lng, nombre);

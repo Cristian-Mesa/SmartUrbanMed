@@ -265,7 +265,7 @@
         background: var(--panel);
         border: 1px solid var(--border);
         border-radius: .875rem;
-        overflow: hidden;
+        overflow: visible;
         transition: border-color .3s
       }
 
@@ -501,7 +501,7 @@
         background: var(--panel);
         border: 1px solid var(--border);
         border-radius: .875rem;
-        overflow: hidden;
+        overflow: visible;
         transition: border-color .3s
       }
 
@@ -1159,12 +1159,12 @@
         function _initMapa() {
             var el = document.getElementById('mapa-solicitud');
             if (!el || mapa) return;
-            mapa = L.map('mapa-solicitud', { center: [6.2442, -75.5812], zoom: 12 });
+            mapa = L.map('mapa-solicitud', { center: [6.2442, -75.5812], zoom: 13 });
             L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
                 attribution: '&copy; OSM &copy; CARTO',
                 maxZoom: 19, subdomains: 'abcd'
             }).addTo(mapa);
-            mapa.invalidateSize();
+            setTimeout(function () { if (mapa) mapa.invalidateSize(); }, 400);
         }
         /* Llamar directo — Leaflet ya está en Site.Master head */
         if (document.readyState === 'loading') {
@@ -1198,9 +1198,10 @@
                 var parts = item.display_name.split(',');
                 var main = parts[0].trim();
                 var sub = parts.slice(1, 3).join(',').trim();
-                return '<div class="suggestion-item" onclick="seleccionarSugerencia(''
-                    + escStr(item.display_name) + '', '
-                    + parseFloat(item.lat) + ',' + parseFloat(item.lon) + ')">'
+                var lat = parseFloat(item.lat);
+                var lng = parseFloat(item.lon);
+                var escapedName = esc(item.display_name);
+                return '<div class="suggestion-item" onclick="seleccionarSugerencia(' + "'" + encodeURIComponent(item.display_name) + "'" + ', ' + lat + ', ' + lng + ')">'
                     + '<span class="suggestion-icon">&#128205;</span>'
                     + '<div><div class="suggestion-main">' + esc(main) + '</div>'
                     + (sub ? '<div class="suggestion-sub">' + esc(sub) + '</div>' : '')
@@ -1210,6 +1211,9 @@
         }
 
         function seleccionarSugerencia(nombre, lat, lng) {
+            try {
+                nombre = decodeURIComponent(nombre);
+            } catch (e) { }
             document.getElementById('addr-input').value = nombre.split(',').slice(0, 2).join(',').trim();
             hideSuggestions();
             moverPin(lat, lng, nombre);
