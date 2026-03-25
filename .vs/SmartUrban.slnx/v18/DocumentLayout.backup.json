@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F712AAE-F9C3-48F6-8125-491BB5DED4FF}|SmartUrban\\SmartUrban.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\smarturban\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F712AAE-F9C3-48F6-8125-491BB5DED4FF}|SmartUrban\\SmartUrban.csproj|solutionrelative:smarturban\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capadatos\\cdsolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdsolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capadatos\\cdservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capadatos\\cdproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capadatos\\cdconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capadatos\\cdcalificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdcalificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capanegocios\\cnusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\cnusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capanegocios\\cnsolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\cnsolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capanegocios\\cnservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\cnservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capanegocios\\cnproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\cnproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capanegocios\\cncalificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E96C7EE-28C8-4D74-82B8-0DF1A795A7D0}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\cncalificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capaentidad\\ceusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\ceusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capaentidad\\cesolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cesolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capaentidad\\ceservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\ceservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capaentidad\\ceproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\ceproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capaentidad\\cecalificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4FFF74-80C4-41A8-9B0F-7EB2A250FD6D}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cecalificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|c:\\users\\juanp\\source\\repos\\smarturbanmedell-n\\smarturban (1)\\smarturban\\smarturban\\capadatos\\cdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76575146-ACAB-4629-BD40-F872A18C05F5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\SmartUrban\\Default.aspx",
+              "RelativeDocumentMoniker": "SmartUrban\\Default.aspx",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\SmartUrban\\Default.aspx",
+              "RelativeToolTip": "SmartUrban\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-17T14:08:21.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CNSolicitudes.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNSolicitudes.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\CNSolicitudes.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNSolicitudes.cs",
+              "RelativeToolTip": "CapaNegocios\\CNSolicitudes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:22.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CNUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNUsuarios.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\CNUsuarios.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNUsuarios.cs",
+              "RelativeToolTip": "CapaNegocios\\CNUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:03.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CDServicios.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDServicios.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDServicios.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDServicios.cs",
+              "RelativeToolTip": "CapaDatos\\CDServicios.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:24:14.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CDProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDProveedores.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDProveedores.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDProveedores.cs",
+              "RelativeToolTip": "CapaDatos\\CDProveedores.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:33:15.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CDConexion.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDConexion.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDConexion.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDConexion.cs",
+              "RelativeToolTip": "CapaDatos\\CDConexion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:33:22.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CDCalificaciones.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDCalificaciones.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDCalificaciones.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDCalificaciones.cs",
+              "RelativeToolTip": "CapaDatos\\CDCalificaciones.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:33:30.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CDSolicitudes.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDSolicitudes.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDSolicitudes.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDSolicitudes.cs",
+              "RelativeToolTip": "CapaDatos\\CDSolicitudes.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:23:44.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\.gitignore",
+              "RelativeDocumentMoniker": "..\\..\\..\\.gitignore",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\.gitignore",
+              "RelativeToolTip": "..\\..\\..\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-17T13:56:48.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CNServicios.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNServicios.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\CNServicios.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNServicios.cs",
+              "RelativeToolTip": "CapaNegocios\\CNServicios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:29.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CNProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNProveedores.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\CNProveedores.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNProveedores.cs",
+              "RelativeToolTip": "CapaNegocios\\CNProveedores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:37.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CNCalificaciones.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNCalificaciones.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\CNCalificaciones.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaNegocios\\CNCalificaciones.cs",
+              "RelativeToolTip": "CapaNegocios\\CNCalificaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:44.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CEUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CEUsuarios.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEUsuarios.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CEUsuarios.cs",
+              "RelativeToolTip": "CapaEntidad\\CEUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:14:24.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CESolicitudes.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CESolicitudes.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CESolicitudes.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CESolicitudes.cs",
+              "RelativeToolTip": "CapaEntidad\\CESolicitudes.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:14:15.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CEServicios.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CEServicios.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEServicios.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CEServicios.cs",
+              "RelativeToolTip": "CapaEntidad\\CEServicios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:14:07.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CEProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CEProveedores.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEProveedores.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CEProveedores.cs",
+              "RelativeToolTip": "CapaEntidad\\CEProveedores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:13:56.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CECalificaciones.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CECalificaciones.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CECalificaciones.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaEntidad\\CECalificaciones.cs",
+              "RelativeToolTip": "CapaEntidad\\CECalificaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBAAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:14:39.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CDUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDUsuario.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDUsuario.cs",
+              "ToolTip": "C:\\Users\\juanp\\source\\repos\\SmartUrbanMedell-n\\SmartUrban (1)\\SmartUrban\\SmartUrban\\CapaDatos\\CDUsuario.cs",
+              "RelativeToolTip": "CapaDatos\\CDUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:20:44.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
